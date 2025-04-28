@@ -1,0 +1,51 @@
+class program {
+
+	void llenaV1 (){
+    iterate (4){
+    putbeeper();
+    if (frontIsClear) {
+    
+    move();
+    
+        }
+      }
+    }
+    ////FIN V1
+    void llenaV2(){
+    while (frontIsClear) {
+   move() ;
+   putbeeper();
+   }
+}
+////FINV2
+void giroderecha() {
+iterate (3){
+turnleft();
+}
+move();
+iterate(3){
+turnleft();
+}
+putbeeper();
+}
+void reubicar() {
+turnleft();
+move();
+turnleft();
+putbeeper();
+}
+    
+
+    program () {
+    putbeeper();
+    iterate (2) {
+        llenaV2(); 
+        giroderecha();
+        llenaV2();
+        reubicar();
+        }
+        llenaV2();
+      
+        turnoff();
+    }
+}
